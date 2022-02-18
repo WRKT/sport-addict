@@ -22,18 +22,20 @@ body{
     font-family: 'Source Code Pro', monospace;
 }
 header{
-    padding: 50px;
+    padding: 25px;
     margin-bottom: 50px;
     font-weight: 600;
 }
 #Presentation{
     height: 100vh;
+    background-image: url(../images/man_fitness.jpg);
 }
 nav ul{
     display: flex;
     flex-direction: row;
     justify-content: right;
     list-style: none;
+
 }
 nav ul li{
     margin:0 30px;
