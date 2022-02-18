@@ -1,4 +1,4 @@
-//Background-img aléatoire
+//Début fonction background-img aléatoire
 function randomImg() {
     const randomImgLink = [
             `url(CSS/images/activites/basketball.jpg)`,
@@ -6,9 +6,11 @@ function randomImg() {
             `url(CSS/images/activites/crossfit.jpg)`,
             `url(CSS/images/activites/musculation.jpg)`,
         ]
-    return randomImgLink[Math.floor(Math.random() * randomImgLink.length)];
+    document.getElementById("Presentation").style.backgroundImage=randomImgLink[Math.floor(Math.random() * randomImgLink.length)];
+    console.log("done")
   }
 
-var imgChange = document.getElementById("Presentation").style.backgroundImage=`${randomImg()}`
+setInterval(() => {randomImg();}, 5000)
 
-setInterval(imgChange, 5000)
+// FIN Fonction
+
