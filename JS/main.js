@@ -12,5 +12,7 @@ function randomImg() {
 
 setInterval(() => {randomImg();}, 4000)
 
-// FIN Fonction
+// FIN fonction background-img aléatoire
+
+
 

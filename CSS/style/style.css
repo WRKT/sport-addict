@@ -9,7 +9,7 @@
 .Whimsical-Sport-Illustrations-4-hex { color: #F27272; }
 .Whimsical-Sport-Illustrations-5-hex { color: #D9A3A3; }
 
-/*Style index*/
+/*DEBUT Accueil*/
 html{
     scroll-behavior: smooth;
 }
@@ -47,6 +47,7 @@ nav #menu a, nav #menu a:active, nav #menu a:after{
     text-transform: uppercase;
     font-weight: 800;
     font-size: 25px;
+    letter-spacing: 2px;
 }
 nav #menu a:hover{
     border-bottom:  #A63F3F solid 1px;
@@ -69,3 +70,8 @@ nav #menu a:hover{
     font-size: 50px;
     color: #ffffff;
 }
+/*FIN Accueil*/
+
+/*DEBUT Activités*/
+
+/*FIN Activités*/
