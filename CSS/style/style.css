@@ -10,6 +10,9 @@
 .Whimsical-Sport-Illustrations-5-hex { color: #D9A3A3; }
 
 /*Style index*/
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin:0;
     padding: 0;
@@ -53,7 +56,7 @@ nav #menu a:hover{
     position: absolute;
     top:10px;
     left: 30px;
-    width: 175px;
+    width: 200px;
     height: 100px;
     margin-top: 0;
 }
