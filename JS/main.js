@@ -10,7 +10,7 @@ function randomImg() {
     console.log("done")
   }
 
-setInterval(() => {randomImg();}, 5000)
+setInterval(() => {randomImg();}, 4000)
 
 // FIN Fonction
 
