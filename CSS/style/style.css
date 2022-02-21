@@ -88,6 +88,22 @@ nav #menu a:hover{
 footer{
     background-color: #65768C;
     padding:30px;
+    color: #ffffff;
 }
+footer h2{
+    color: #A63F3F;
+}
+footer ul li{
+    list-style: none;
+    line-height: 50px;
+    margin: 0;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
 
+}
+#pied{
+    justify-content: space-evenly;
+}
 /*FIN footer*/
