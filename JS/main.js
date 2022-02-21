@@ -14,5 +14,6 @@ setInterval(() => {randomImg();}, 4000)
 
 // FIN fonction background-img aléatoire
 
+//DEBUT fonction navbar
 
-
+//FIN Fonction navbar

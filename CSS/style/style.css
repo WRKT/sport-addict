@@ -73,5 +73,9 @@ nav #menu a:hover{
 /*FIN Accueil*/
 
 /*DEBUT Activités*/
+.imgactivities{
+    width:450px;
+    height:250px
+}
 
 /*FIN Activités*/
