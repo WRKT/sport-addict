@@ -16,4 +16,4 @@ setInterval(() => {randomImg();}, 4000)
 
 //DEBUT fonction navbar
 
-//FIN Fonction navbar
+//FIN Fonction navbarD

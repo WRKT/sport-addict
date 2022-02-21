@@ -72,10 +72,22 @@ nav #menu a:hover{
 }
 /*FIN Accueil*/
 
-/*DEBUT Activités*/
-.imgactivities{
-    width:450px;
-    height:250px
+/*DEBUT page sports*/
+.imgsports{
+    width:500px;
+    height:375px
+}
+.conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*FIN page sports*/
+
+/*DEBUT footer*/
+footer{
+    background-color: #65768C;
+    padding:30px;
 }
 
-/*FIN Activités*/
+/*FIN footer*/
