@@ -110,8 +110,10 @@ h1{
     transition-property: all;
     text-align: right;
 }
-.showhide:hover{
+.showhide span:hover{
     color: #A63F3F;
+    transform: scale(1.03);
+    border-bottom: #D9A3A3 solid 2px;
 }
 #contenucaché{
     display: none;

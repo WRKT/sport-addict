@@ -23,7 +23,7 @@ const TOGGLE_ShowHide = document.querySelector(".showhide");
 const HIDDEN_CONTAINER = document.querySelector("#contenucaché");
 
 TOGGLE_ShowHide.addEventListener("click", () => {
-  if (TOGGLE_ShowHide.children[0].innerHTML === "Afficher") {
+  if (TOGGLE_ShowHide.children[0].innerHTML === "Afficher plus . . .") {
     TOGGLE_ShowHide.children[0].innerHTML = "Masquer";
     HIDDEN_CONTAINER.style.display = "block";
   } else {
