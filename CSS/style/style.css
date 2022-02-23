@@ -130,6 +130,7 @@ footer{
     padding:25px 25px 10px 25px;
     margin-top: 100px;
     color: #ffffff;
+    line-height: 1;
 }
 footer ul li{
     list-style: none;
@@ -154,15 +155,15 @@ footer ul li a{
 }
 #logoinfoot{
     width:200px;
-    border-radius: 20px;
+    border-radius: 15px;
     filter: grayscale(0.6);
     transition-duration: 0.5s;
 }
 #logoinfoot:hover{
     transform: scale(1.04);
 }
-.droite{
-    text-align: right;
+.centre{
+    text-align: center;
 }
 #copyright{
     text-align:center;
