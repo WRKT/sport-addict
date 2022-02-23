@@ -73,25 +73,40 @@ nav #menu a:hover{
 /*FIN Accueil*/
 
 /*DEBUT page sports*/
+h1{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.soulignement {
+    background-color: #65768C;
+    height: 2px;
+    width:30%;
+    position: relative;
+    left:35%;
+}
 .imgsports{
     width:500px;
-    height:375px
+    height:375px;
+    margin-top: 50px;
 }
 .conteneur{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.conteneur div h2, .conteneur div h3{
+    text-align: center;
+}
 /*FIN page sports*/
 
 /*DEBUT footer*/
 footer{
     background-color: #65768C;
-    padding:30px;
+    padding:25px;
+    margin-top: 100px;
     color: #ffffff;
-}
-footer h2{
-    color: #A63F3F;
 }
 footer ul li{
     list-style: none;
@@ -105,5 +120,10 @@ footer ul li a{
 }
 #pied{
     justify-content: space-evenly;
+}
+#pied h2{
+    font-size: 30px;
+    color: #A63F3F;
+    text-align: center;
 }
 /*FIN footer*/
