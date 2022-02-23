@@ -90,29 +90,33 @@ h1{
     width:500px;
     height:375px;
     margin-top: 50px;
-}
-.pro{
-    width:550px;
-    height:375px;
+    border-radius: 10px;
 }
 .conteneur{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin:0 30px;
 }
 .conteneur div h2, .conteneur div h3{
     text-align: center;
 }
+.conteneur div h3{
+    font-weight: 100;
+}
 .showhide{
     padding-top: 50px;
     margin-right: 50px;
-    cursor: pointer;
-    transition-property: all;
     text-align: right;
+}
+.showhide span {
+    transition-duration: 0.6s;
+    transition-property: all;
+    cursor: pointer;
 }
 .showhide span:hover{
     color: #A63F3F;
-    transform: scale(1.03);
+    font-size: 110%;
     border-bottom: #D9A3A3 solid 2px;
 }
 #contenucaché{
@@ -122,8 +126,8 @@ h1{
 
 /*DEBUT footer*/
 footer{
-    background-color: #65768C;
-    padding:25px;
+    background-color: #1c2430;
+    padding:25px 25px 10px 25px;
     margin-top: 100px;
     color: #ffffff;
 }
@@ -135,14 +139,32 @@ footer ul li{
 footer ul li a{
     text-decoration: none;
     color: #ffffff;
-
 }
 #pied{
-    justify-content: space-evenly;
+    justify-content:space-around;
 }
-#pied h2{
+#pied h2 span{
     font-size: 30px;
-    color: #A63F3F;
+    color: #a31d1d;
     text-align: center;
+    border-bottom: #65768C solid 2.5px;
+}
+#pied a:hover{
+    border-bottom:#ffffff solid 1px;
+}
+#logoinfoot{
+    width:200px;
+    border-radius: 20px;
+    filter: grayscale(0.6);
+    transition-duration: 0.5s;
+}
+#logoinfoot:hover{
+    transform: scale(1.04);
+}
+.droite{
+    text-align: right;
+}
+#copyright{
+    text-align:center;
 }
 /*FIN footer*/
