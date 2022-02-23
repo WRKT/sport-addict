@@ -27,7 +27,7 @@ TOGGLE_ShowHide.addEventListener("click", () => {
     TOGGLE_ShowHide.children[0].innerHTML = "Masquer";
     HIDDEN_CONTAINER.style.display = "block";
   } else {
-    TOGGLE_ShowHide.children[0].innerHTML = "Afficher";
+    TOGGLE_ShowHide.children[0].innerHTML = "Afficher plus . . .";
     HIDDEN_CONTAINER.style.display = "none";
   }
 });
