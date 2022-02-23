@@ -1,6 +1,7 @@
 /*Import polices*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 /* Color Theme Swatches in Hex */
 .Whimsical-Sport-Illustrations-1-hex { color: #65768C; }
@@ -17,6 +18,9 @@ body{
     margin:0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
+}
+h2, h3, h4 {
+    font-family: 'Inconsolata', monospace;
 }
 header{
     padding: 60px;
