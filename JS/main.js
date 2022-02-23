@@ -19,11 +19,16 @@ setInterval(() => {randomImg();}, 4000)
 //FIN Fonction navbar
 
 //DEBUT fonction afficher/cacher contenucaché
+const TOGGLE_ShowHide = document.querySelector(".showhide");
+const HIDDEN_CONTAINER = document.querySelector("#contenucaché");
 
-function afficher() {
-  document.getElementById("contenucaché").style.display="block"
-}
-function fermer(){
-  document.getElementById("contenucaché").style.display="none"
-}
+TOGGLE_ShowHide.addEventListener("click", () => {
+  if (TOGGLE_ShowHide.children[0].innerHTML === "Afficher") {
+    TOGGLE_ShowHide.children[0].innerHTML = "Masquer";
+    HIDDEN_CONTAINER.style.display = "block";
+  } else {
+    TOGGLE_ShowHide.children[0].innerHTML = "Afficher";
+    HIDDEN_CONTAINER.style.display = "none";
+  }
+});
 //FIN fonction afficher contenucaché
