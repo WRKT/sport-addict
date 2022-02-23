@@ -16,4 +16,14 @@ setInterval(() => {randomImg();}, 4000)
 
 //DEBUT fonction navbar
 
-//FIN Fonction navbarD
+//FIN Fonction navbar
+
+//DEBUT fonction afficher/cacher contenucaché
+
+function afficher() {
+  document.getElementById("contenucaché").style.display="block"
+}
+function fermer(){
+  document.getElementById("contenucaché").style.display="none"
+}
+//FIN fonction afficher contenucaché

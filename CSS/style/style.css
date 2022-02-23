@@ -91,6 +91,10 @@ h1{
     height:375px;
     margin-top: 50px;
 }
+.pro{
+    width:550px;
+    height:375px;
+}
 .conteneur{
     display: flex;
     flex-wrap: wrap;
@@ -98,6 +102,19 @@ h1{
 }
 .conteneur div h2, .conteneur div h3{
     text-align: center;
+}
+.showhide{
+    padding-top: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+    transition-property: all;
+    text-align: right;
+}
+.showhide:hover{
+    color: #A63F3F;
+}
+#contenucaché{
+    display: none;
 }
 /*FIN page sports*/
 
