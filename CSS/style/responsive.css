@@ -1,0 +1,5 @@
+@media screen and (max-width:1070px) {
+    .conteneur {
+        justify-content: center;
+    }
+}
