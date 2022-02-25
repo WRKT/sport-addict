@@ -19,9 +19,7 @@ body{
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
 }
-h2, h3, h4 {
-    font-family: 'Inconsolata', monospace;
-}
+
 header{
     padding: 60px;
     color: #000000;
@@ -83,6 +81,9 @@ h1{
     font-size: 40px;
     text-transform: uppercase;
 }
+h2, h3, h4 {
+    font-family: 'Inconsolata', monospace;
+}
 .soulignement {
     background-color: #65768C;
     height: 2px;
@@ -95,6 +96,14 @@ h1{
     height:375px;
     margin-top: 50px;
     border-radius: 10px;
+    box-shadow: #1c2430 10px 7px 10px;
+    transition-duration: 0.3s;
+}
+.imgsports:hover{
+    box-shadow: #6b7480 12px 9px 15px;
+    transform: scale(1.03);
+    cursor: pointer;
+
 }
 .conteneur{
     display: flex;
@@ -117,10 +126,11 @@ h1{
     transition-duration: 0.6s;
     transition-property: all;
     cursor: pointer;
+    font-size: 20px;
 }
 .showhide span:hover{
     color: #A63F3F;
-    font-size: 110%;
+    font-size: 22px;
     border-bottom: #D9A3A3 solid 2px;
 }
 #contenucaché{
