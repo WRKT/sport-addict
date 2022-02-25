@@ -42,13 +42,14 @@ nav #menu{
     position: absolute;
     right: 0;
     top:50px;
+
 }
 nav #menu a, nav #menu a:active, nav #menu a:after{
     text-decoration: none;
     color: #3a3a3a;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 27px;
     letter-spacing: 2px;
 }
 nav #menu a:hover{
@@ -72,6 +73,19 @@ nav #menu a:hover{
     font-size: 50px;
     color: #ffffff;
 }
+input{
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-right: 25px;
+    width:250px;
+    font-size: 25px;
+    font-family: 'Roboto Condensed';
+    letter-spacing: 2px;
+}
+#middle .conteneur{
+    justify-content: center;
+    margin: 25px 0px 0px 0px;
+}
 /*FIN Accueil*/
 
 /*DEBUT page sports*/
@@ -85,7 +99,7 @@ h2, h3, h4 {
     font-family: 'Inconsolata', monospace;
 }
 .soulignement {
-    background-color: #65768C;
+    background-color: #64758b;
     height: 2px;
     width:30%;
     position: relative;
@@ -96,11 +110,12 @@ h2, h3, h4 {
     height:375px;
     margin-top: 50px;
     border-radius: 10px;
-    box-shadow: #1c2430 10px 7px 10px;
+    box-shadow: #1c2430 10px 0px 15px;
     transition-duration: 0.3s;
+    object-fit: cover;
 }
 .imgsports:hover{
-    box-shadow: #6b7480 12px 9px 15px;
+    box-shadow: #6b7480 12px 0px 50px;
     transform: scale(1.03);
     cursor: pointer;
 
@@ -108,7 +123,7 @@ h2, h3, h4 {
 .conteneur{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin:0 30px;
 }
 .conteneur div h2, .conteneur div h3{
@@ -136,6 +151,7 @@ h2, h3, h4 {
 #contenucaché{
     display: none;
 }
+
 /*FIN page sports*/
 
 /*DEBUT footer*/
