@@ -171,7 +171,7 @@ footer ul li a{
     width:200px;
     border-radius: 15px;
     filter: grayscale(0.6);
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 #logoinfoot:hover{
     transform: scale(1.04);

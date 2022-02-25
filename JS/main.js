@@ -1,24 +1,30 @@
-//Début fonction background-img aléatoire
+//DEBUT fonction background-img aléatoire
+let i = 0;
 function randomImg() {
-  let i = 0;
     const randomImgLink = [
             `url(CSS/images/activites/basketball.jpg)`,
-            `url(CSS/images/activites/boxe.jpg)`,
             `url(CSS/images/activites/crossfit.jpg)`,
             `url(CSS/images/activites/musculation.jpg)`,
+            `url(CSS/images/activites/boxe.jpg)`,
         ]
-    let stylePresentation = document.querySelector("#Presentation");
-    let theCSSprop = window.getComputedStyle(stylePresentation,null).getPropertyValue("background-image");
-    console.log(theCSSprop);
+  if (i === randomImgLink.length) {
+             i = 0;
   }
+  //document.querySelector("#Presentation").animate([{ opacity: 0 }, { transition: "ease-in" }], {
+  //  duration: 400,
+  //});
+  document.querySelector("#Presentation").style.backgroundImage = randomImgLink[i];
+  i++;
+}
+ setInterval(() => {
+ randomImg();
+}, 3000);
 
-setInterval(() => {randomImg();}, 4000)
+//FIN fonction background-img aléatoire
 
-// FIN fonction background-img aléatoire
+//DEBUT fonction rechercher
 
-//DEBUT fonction navbar
-
-//FIN Fonction navbar
+//FIN Fonction rechercher
 
 //DEBUT fonction afficher/cacher contenucaché
 const TOGGLE_ShowHide = document.querySelector(".showhide");
