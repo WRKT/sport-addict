@@ -1,8 +1,40 @@
+import { IMAGES_DATA } from "./data.js";
+
 const getUrlClass  = new URLSearchParams(window.location.search).get("sport"); // GET class: 'event','activity','populaire'
-console.log(getUrlClass)
-var tab 
-    if (get) {
-        console.log(get);
-    } else if (getcom) {
-        console.log(getcom)
-     }
+
+var tab = [];
+
+function GetAllElements() {
+
+    for (let GetSport in IMAGES_DATA) {
+        // console.log(IMAGES_DATA[GetSport]);
+            if (IMAGES_DATA[GetSport]._id.includes(getUrlClass)) {
+                tab.push(IMAGES_DATA[GetSport]);
+            } else if (IMAGES_DATA[GetSport].h3.includes(getUrlClass)) {
+                tab.push(IMAGES_DATA[GetSport]);
+            } else if (IMAGES_DATA[GetSport].h2.includes(getUrlClass)) {
+                tab.push(IMAGES_DATA[GetSport]);
+            }
+    }
+
+    ShowAllElements();
+
+}
+
+function ShowAllElements() {
+
+
+    for (let ShowSport in tab) {
+
+        console.log(tab[ShowSport])
+        
+        const GenerateShowSport = `<div class="generate-sport"> <img style="width: 200px;" src="${tab[ShowSport].favlink}" alt="${tab[ShowSport].tab}" class="img"><h3>${tab[ShowSport].h3}</h3</div>`
+        
+        document.querySelector('body').insertAdjacentHTML('beforeend', GenerateShowSport)        
+        
+    }
+    
+}
+
+
+GetAllElements();

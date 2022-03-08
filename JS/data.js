@@ -1,4 +1,4 @@
-const IMAGES_DATA = [
+export const IMAGES_DATA = [
   {
     "_id": "basketball",
     "class": "activity",
