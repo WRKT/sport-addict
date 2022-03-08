@@ -8,11 +8,11 @@ function GetAllElements() {
 
     for (let GetSport in IMAGES_DATA) {
         // console.log(IMAGES_DATA[GetSport]);
-            if (IMAGES_DATA[GetSport]._id.includes(getUrlClass)) {
+            if (IMAGES_DATA[GetSport]._id.includes(getUrlClass.toLowerCase())) {
                 tab.push(IMAGES_DATA[GetSport]);
-            } else if (IMAGES_DATA[GetSport].h3.includes(getUrlClass)) {
+            } else if (IMAGES_DATA[GetSport].h3.includes(getUrlClass.toLowerCase())) {
                 tab.push(IMAGES_DATA[GetSport]);
-            } else if (IMAGES_DATA[GetSport].h2.includes(getUrlClass)) {
+            } else if (IMAGES_DATA[GetSport].h2.includes(getUrlClass.toLowerCase())) {
                 tab.push(IMAGES_DATA[GetSport]);
             }
     }
