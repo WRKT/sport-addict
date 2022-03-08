@@ -48,3 +48,12 @@ TOGGLE_ShowHide.addEventListener("click", () => {
   }
 });
 //FIN fonction afficher contenucaché
+
+
+// Enter dans l'input => submit du button
+searchInput.addEventListener("keyup", (e) => {
+  if (e.keyCode === 13) {
+    e.preventDefault();
+    searchButton.click();
+  }
+});
