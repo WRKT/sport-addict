@@ -24,6 +24,14 @@ function randomImg() {
 
 //DEBUT fonction rechercher
 
+const searchInput = document.querySelector("input")
+const searchButton = document.querySelector(".fa-magnifying-glass")
+
+searchButton.addEventListener("click", () =>{
+  console.log(searchInput.value)
+  searchButton.parentElement.setAttribute("href",`HTML/result.html?sport=${searchInput.value}`)
+}
+)
 //FIN Fonction rechercher
 
 //DEBUT fonction afficher/cacher contenucaché
