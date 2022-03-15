@@ -28,10 +28,7 @@ function ShowAllElements() {
 
         console.log(tab[ShowSport])
         
-        const GenerateShowSport = `<header>
-                                        <h1>Resultat avec""</h1>
-                                    </header>
-                                    <div class="conteneur"> 
+        const GenerateShowSport = ` <div class="conteneur"> 
                                         <div>
                                             <img class="imgsports imgresults" src="${tab[ShowSport].favlink}" alt="${tab[ShowSport].tab}">
                                             <h3>${tab[ShowSport].h3}</h3>
