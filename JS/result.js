@@ -30,6 +30,7 @@ function ShowAllElements() {
         
         const GenerateShowSport = ` <div>
                                         <div class="centre"><img class="imgsports imgresults" src="${tab[ShowSport].favlink}" alt="${tab[ShowSport].tab}"></div>
+                                        <h2>${tab[ShowSport].h2}</h2>
                                         <h3>${tab[ShowSport].h3}</h3>
                                     </div>`
         

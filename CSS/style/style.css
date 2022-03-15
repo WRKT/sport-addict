@@ -165,7 +165,7 @@ h2, h3, h4 {
 /*DEBUT page results*/
 #result{
     background-color:#64758b;
-    color: #D8EBF2;
+    color: #e5eef1;
     margin: 0;
     padding: 0;
 }
@@ -177,9 +177,12 @@ h2, h3, h4 {
 #result h1{
     padding-top: 10px;
 }
-#result h3{
-    font-weight: 800;
+#result h2{
     text-align: center;
+} 
+#result h3{
+    text-align: center;
+    font-weight: 100;
 }
 .imgresults{
     width: 400px;
