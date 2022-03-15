@@ -170,7 +170,7 @@ h2, h3, h4 {
     padding: 0;
 }
 #result header{
-    padding: 40px;
+    padding: 25px;
     color: #dddddd;
     background-color: #1c2430;
 }
@@ -179,6 +179,15 @@ h2, h3, h4 {
 }
 #result h3{
     font-weight: 800;
+    text-align: center;
+}
+.imgresults{
+    width: 400px;
+    height: 300px;
+}
+.generate-sports{
+    display: flex;
+    justify-content: center;
 }
 /*FIN results*/
 
