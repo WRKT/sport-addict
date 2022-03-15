@@ -191,6 +191,25 @@ h2, h3, h4 {
     justify-content: space-evenly;
     margin:0 30px;
 }
+#result .accueilLink{
+    text-align: center;
+    position: fixed;
+    bottom:10px;
+    left:42%;
+}
+#result .accueilLink a{
+    text-decoration: none;
+    color:#1c2430;
+    font-size: 25px;
+    transition-duration: 0.6s;
+}
+#result .accueilLink a:hover{
+    font-size: 27px;
+    color: #ffffff;
+}
+#result .accueilLink a span:hover{
+    border-bottom: #D8EBF2 1px solid;
+}
 /*FIN results*/
 
 /*DEBUT footer*/
