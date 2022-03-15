@@ -28,11 +28,9 @@ function ShowAllElements() {
 
         console.log(tab[ShowSport])
         
-        const GenerateShowSport = ` <div class="generate-sports"> 
-                                        <div>
-                                            <img class="imgsports imgresults" src="${tab[ShowSport].favlink}" alt="${tab[ShowSport].tab}">
-                                            <h3>${tab[ShowSport].h3}</h3>
-                                        </div>
+        const GenerateShowSport = ` <div>
+                                        <div class="centre"><img class="imgsports imgresults" src="${tab[ShowSport].favlink}" alt="${tab[ShowSport].tab}"></div>
+                                        <h3>${tab[ShowSport].h3}</h3>
                                     </div>`
         
         document.querySelector('#searchResults').insertAdjacentHTML('beforeend', GenerateShowSport)        
