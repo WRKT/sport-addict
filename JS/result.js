@@ -18,6 +18,10 @@ function GetAllElements() {
     }
 
     ShowAllElements();
+    const NoSportinDatabase = `Aucun élément ne correspond à votre recherche`
+    if (tab = []){
+    document.querySelector('#noResults').insertAdjacentHTML('beforeend', NoSportinDatabase)
+}
 
 }
 
@@ -34,10 +38,11 @@ function ShowAllElements() {
                                         <h3>${tab[ShowSport].h3}</h3>
                                     </div>`
         
-        document.querySelector('#searchResults').insertAdjacentHTML('beforeend', GenerateShowSport)        
+        document.querySelector('#searchResults').insertAdjacentHTML('beforeend', GenerateShowSport)
         
     }
     
+   
 }
 
 
