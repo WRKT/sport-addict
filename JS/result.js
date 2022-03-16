@@ -18,7 +18,7 @@ function GetAllElements() {
     }
 
     ShowAllElements();
-    const NoSportinDatabase = `Aucun élément ne correspond à votre recherche`
+    const NoSportinDatabase = `Aucun élément ne correspond à votre recherche.`
     if (tab = []){
     document.querySelector('#noResults').insertAdjacentHTML('beforeend', NoSportinDatabase)
 }
