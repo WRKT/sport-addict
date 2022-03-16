@@ -18,10 +18,6 @@ function GetAllElements() {
     }
 
     ShowAllElements();
-    const NoSportinDatabase = `Oops!:( <br> Aucun élément ne correspond à votre recherche.`
-    if (tab = []){
-    document.querySelector('#noResults').insertAdjacentHTML('beforeend', NoSportinDatabase)
-}
 
 }
 
@@ -41,9 +37,13 @@ function ShowAllElements() {
         document.querySelector('#searchResults').insertAdjacentHTML('beforeend', GenerateShowSport)
         
     }
-    
+    const NoSportinDatabase = `Oops!:( <br> Aucun élément ne correspond à votre recherche.`
+    if (tab.length===0){
+    document.querySelector('#noResults').insertAdjacentHTML('beforeend', NoSportinDatabase)
+    }
    
 }
 
 
 GetAllElements();
+
