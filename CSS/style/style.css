@@ -47,7 +47,7 @@ nav #menu a:hover{
     border-bottom:  #A63F3F solid 1px;
     color: #A63F3F;
 }
-#logo{
+.logo{
     position: absolute;
     top:10px;
     left: 30px;
@@ -160,13 +160,25 @@ h2, h3, h4 {
     margin: 0;
     padding: 0;
 }
+#logoresult{
+    border-radius: 10px;
+    width: 150px;
+    height: 75px;
+    top:20px;
+    transition-duration: 0.6s;
+}
+#logoresult:hover{
+    transform: scale(1.1);
+}
+
 #result header{
-    padding: 20px;
+    padding: 15px;
     color: #dddddd;
     background-color: #1c2430;
+    filter: grayscale(50%);
 }
 #result h1{
-    padding-top: 10px;
+    padding-top: 5px;
 }
 #result h2{
     text-align: center;
@@ -184,26 +196,6 @@ h2, h3, h4 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin:0 30px;
-}
-#result .accueilLink{
-    text-align: center;
-    position: absolute;
-    bottom:10px;
-    left:50%;
-    transform: translateX(-50%);
-}
-#result .accueilLink a{
-    text-decoration: none;
-    color:#1c2430;
-    font-size: 20px;
-    transition-duration: 0.6s;
-}
-#result .accueilLink a:hover{
-    font-size: 24px;
-    color: #ffffff;
-}
-#result .accueilLink a span:hover{
-    border-bottom: #D8EBF2 1px solid;
 }
 #noResults{
     font-family: 'Inconsolata', monospace;
