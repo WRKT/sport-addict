@@ -2,4 +2,13 @@
     .conteneur {
         justify-content: center;
     }
+    nav #menu a, nav #menu a:active, nav #menu a:after {
+        font-size: 20px;
+    }
+    #middle{
+        font-size: 30px;
+    }
+    input {
+        font-size: 15px;
+    }
 }
