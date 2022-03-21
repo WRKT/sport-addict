@@ -9,12 +9,35 @@
     <script src="https://kit.fontawesome.com/68aa9ad634.js" crossorigin="anonymous"></script>
     <title>Sport Addict - Inscription</title>
 </head>
-<body id="SignIn">
+<body id="SignUp">
     <header>
-      <h1>Inscription</h1>
+        <a href="../index.html"><img src="../CSS/images/logo/SportAddict.png" alt="Logo de Sport Addict" class="logo notmainlogo"></a> 
+        <h1>Inscription</h1>
     </header>
+    <form style="border:1px solid #ccc">
+        <div class="formulairecenter">
+        <div class="formulaire">
+          <p>Rejoignez-nous! Plus de 3500 sportifs nous ont déjà rejoints.</p>
+          <div id="ligneseparation"></div>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Entrez votre adresse mail" name="email" required>
+      
+          <label for="psw"><b>Mot de passe</b></label>
+          <input type="password" placeholder="Entrez votre mot de passe" name="psw" required>
+      
+          <label for="psw-repeat"><b>Confirmez Mot de passe</b></label>
+          <input type="password" placeholder="Confirmer votre mot de passe" name="psw-repeat" required>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Annuler</button>
+            <button type="submit" class="signupbtn">GO!</button>
+          </div>
+        </div>
+        </div>
+      </form> 
 
-  <footer>
+    <footer>
     <div class="conteneur pied">
         <div>
             <h2><span>A propos</span></h2>
@@ -32,7 +55,7 @@
             </ul>
         </div>
         <div>
-            <h2><span>Assistance</span></h2>
+            <h2 class="moreLeft"><span>Assistance</span></h2>
             <ul>
                 <li><a href="#">Centre d'aide</a></li>
                 <li><a href="#">Nous contacter</a></li>

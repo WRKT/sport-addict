@@ -1,4 +1,4 @@
-/*Media Queries for smaller screen*/
+/*Responsive pour fenêtre reduite*/
 @media screen and (max-width:1024px) {
     /*DEBUT main Page*/
     body{
@@ -32,7 +32,7 @@
     /*FIN main Page*/
 }
 
-/*Media queries for mobile*/
+/*Responsive pour les téléphones mobiles*/
 @media screen and (max-width:400px){
     /*DEBUT main Page*/
     #menu span{
@@ -72,7 +72,7 @@
     .pied {
         justify-content:left;
     }
-    #moreLeft{
+    .moreLeft{
         margin-left: 40px;
     }
     .pied h2 span{
@@ -84,9 +84,9 @@
     /*FIN main Page*/
 
     /*DEBUT result Page*/
-    #logoresult{
-        width:80px;
-        height: 40px;
+    .notmainlogo{
+        width:95px;
+        height: 50px;
         left: 10px;
         top: 15px;
     }
@@ -95,6 +95,8 @@
     }
     #result h1{
         font-size: 20px;
+        text-align: right;
+        margin-right: 15px;
     }
     #result h2{
         font-size: 15px;
@@ -107,5 +109,26 @@
         position: relative;
         margin:125px 25px;
     }
-    /*FIN result Page*/
+    /*DEBUT inscription*/
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+    #SignUp h1{
+        font-size: 20px;
+        text-align: right;
+        margin-right: 15px;
+    }
+    form input[type=text], form input[type=password] {
+        font-size: 15px;
+    }
+    label{
+        font-size: 17px;
+    }
+    button{
+        border-radius: 5px;
+    }
+    .formulaire p{
+        font-size: 25px;
+    }
+        /*FIN inscription*/
 }
