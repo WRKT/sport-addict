@@ -226,16 +226,16 @@ footer ul li a{
     text-decoration: none;
     color: #ffffff;
 }
-#pied{
+.pied{
     justify-content:space-around;
 }
-#pied h2 span{
+.pied h2 span{
     font-size: 30px;
     color: #a31d1d;
     text-align: center;
     border-bottom: #65768C solid 2.5px;
 }
-#pied a:hover{
+.pied a:hover{
     border-bottom:#ffffff solid 1px;
 }
 #logoinfoot{

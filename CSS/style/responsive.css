@@ -1,12 +1,14 @@
+/*Media Queries for smaller screen*/
 @media screen and (max-width:1024px) {
+    /*DEBUT main Page*/
     body{
-        width: min-content;
+        width: fit-content;
     }
     header{
         padding: 30px;
     }
     .logo{
-        width:110px;
+        width:100px;
         height: 50px;
         left: 10px;
     }
@@ -27,8 +29,18 @@
     h1{
         font-size: 25px;
     }
+    /*FIN main Page*/
 }
+
+/*Media queries for mobile*/
 @media screen and (max-width:400px){
+    /*DEBUT main Page*/
+    input{
+        height:35px;
+    }
+    .fa-magnifying-glass{
+        font-size: 40px;
+    }
     .imgsports{
         width:300px;
         height: 175px;
@@ -36,4 +48,57 @@
     body{
         width: fit-content;
     }
+    h2{
+        font-size:18px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .showhide span{
+        font-size:15px;
+        font-weight: 500;
+    }
+    footer{
+        padding:20px 20px 5px 20px;
+        font-size: 15px;
+        margin-top: 75px;
+    }
+    footer ul li{
+        line-height: 25px;
+    }
+    .pied {
+        justify-content:left;
+    }
+    #moreLeft{
+        margin-left: 40px;
+    }
+    .pied h2 span{
+        font-size:20px;
+    }
+    #logoinfoot{
+        width: 150px;
+    }
+    /*FIN main Page*/
+
+    /*DEBUT result Page*/
+    #logoresult{
+        width:80px;
+        height: 40px;
+        left: 10px;
+        top: 15px;
+    }
+    #result header{
+        padding: 10px;
+    }
+    #result h1{
+        font-size: 20px;
+    }
+    #result h2{
+        font-size: 15px;
+    }
+    #result h3{
+        font-size: 10px;
+    }
+    
+    /*FIN result Page*/
 }
