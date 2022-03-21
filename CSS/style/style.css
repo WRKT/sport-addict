@@ -43,9 +43,9 @@ nav #menu a, nav #menu a:active, nav #menu a:after{
     color: #3a3a3a;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 2px;
-    margin-right:20px;
+    margin-right:50px;
 }
 nav #menu a:hover{
     border-bottom:  #A63F3F solid 1px;
