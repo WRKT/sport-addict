@@ -187,7 +187,7 @@ h2, h3, h4 {
 }
 #result h2{
     text-align: center;
-} 
+}
 #result h3{
     text-align: center;
     font-weight: 100;
@@ -244,7 +244,7 @@ label{
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
 }
-  
+
 button {
     background-color: #65768C;
     color: white;
@@ -257,22 +257,22 @@ button {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 25px;
 }
-  
+
 button:hover {
     opacity:1;
 }
-  
+
   /*Styles pour button annuler*/
 .cancelbtn {
     padding: 14px 20px;
     background-color: #a31d1d;
 }
-  
+
 .cancelbtn, .signupbtn {
     float: left;
     width: 50%;
 }
-  
+
 .formulaire {
     padding: 60px;
     width:100%;
@@ -288,7 +288,7 @@ button:hover {
     clear: both;
     display: table;
 }
-  
+
 /*FIN inscription*/
 
 /*DEBUT footer*/
