@@ -1,2 +1,2 @@
-# Projet-Sport-Addict
+# SPORT ADDICT
 Website made with HTML, CSS, JS for training and educational purpose
